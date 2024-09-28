@@ -1,0 +1,11 @@
+aiohttp==3.8.5          # For asynchronous HTTP requests
+beautifulsoup4==4.12.2   # For HTML parsing
+fake-useragent==1.2.0    # For rotating User-Agent headers
+robotparser==3.10.0      # For robots.txt handling
+lxml==4.9.3              # Optional: Faster HTML parsing for BeautifulSoup
+
+# Optional packages for advanced functionality
+selenium==4.10.0         # Optional: For handling JavaScript-rendered content
+playwright==1.37.0       # Optional: Alternative for JavaScript rendering
+pytest==7.4.2            # For running unit tests
+requests==2.31.0         # General-purpose HTTP requests (optional fallback)
